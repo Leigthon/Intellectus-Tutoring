@@ -10,8 +10,8 @@ export default function Pricing() {
     <div className="min-h-screen pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-black text-[#2c3e73] mb-3">Pricing</h1>
-          <p className="text-gray-600 text-lg">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#2c3e73] mb-3">Pricing</h1>
+          <p className="text-gray-600 text-base sm:text-lg">
             Simple packages to fit your goals and schedule.
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function Pricing() {
                   : "border-gray-200 bg-white hover:border-[#1ac8db]"
               }`}
             >
-              <CardContent className="p-8">
+              <CardContent className="p-6 sm:p-8">
                 <div className="flex items-center justify-between">
                   <h3 className="text-xl font-bold text-[#2c3e73]">
                     {plan.name}
@@ -38,7 +38,7 @@ export default function Pricing() {
                   )}
                 </div>
                 <div className="mt-4">
-                  <div className="text-4xl font-black text-[#2c3e73]">
+                  <div className="text-3xl sm:text-4xl font-black text-[#2c3e73]">
                     {plan.price}
                   </div>
                   <div className="text-sm text-gray-600">{plan.period}</div>

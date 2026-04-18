@@ -86,16 +86,16 @@ export default function Contact() {
     <div className="min-h-screen pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-black text-[#2c3e73] mb-3">Contact</h1>
-          <p className="text-gray-600 text-lg">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#2c3e73] mb-3">Contact</h1>
+          <p className="text-gray-600 text-base sm:text-lg">
             Tell us what you need help with and we’ll get back to you.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">
           <Card className="bg-white border-2">
-            <CardContent className="p-8">
-              <h2 className="text-2xl font-bold text-[#2c3e73] mb-6">
+            <CardContent className="p-6 sm:p-8">
+              <h2 className="text-xl sm:text-2xl font-bold text-[#2c3e73] mb-6">
                 Book a session
               </h2>
 
@@ -200,8 +200,8 @@ export default function Contact() {
 
           <div className="space-y-6">
             <Card className="bg-white border-2">
-              <CardContent className="p-8">
-                <h2 className="text-2xl font-bold text-[#2c3e73] mb-6">
+              <CardContent className="p-6 sm:p-8">
+                <h2 className="text-xl sm:text-2xl font-bold text-[#2c3e73] mb-6">
                   Contact details
                 </h2>
                 <div className="space-y-4 text-gray-700">

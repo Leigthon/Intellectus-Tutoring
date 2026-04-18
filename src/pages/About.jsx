@@ -7,13 +7,13 @@ const About = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#2c3e73]/5 to-white">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#2c3e73]/5 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-10">
-            <h1 className="text-5xl font-bold text-[#2c3e73] mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2c3e73] mb-6">
               About Intellectus Academy
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
               We believe every student has the potential to excel. Our mission
               is to unlock that potential through personalized, high-quality
               tutoring that builds confidence and achieves results.
@@ -21,9 +21,9 @@ const About = () => {
           </div>
 
           {/* Story Section */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-16 sm:mb-20">
             <div>
-              <h2 className="text-3xl font-bold text-[#2c3e73] mb-4">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#2c3e73] mb-4">
                 Our Story
               </h2>
               <div className="space-y-4 text-gray-700">
@@ -61,7 +61,7 @@ const About = () => {
 
           {/* Values */}
           <div className="mb-20">
-            <h2 className="text-3xl font-bold text-[#2c3e73] text-center mb-12">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#2c3e73] text-center mb-12">
               Our Core Values
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -112,8 +112,8 @@ const About = () => {
           {/* Mission & Vision */}
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="bg-[#2c3e73] text-black">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
+              <CardContent className="p-6 sm:p-8">
+                <h3 className="text-xl sm:text-2xl font-bold mb-4">Our Mission</h3>
                 <p className="text-black/90 leading-relaxed">
                   To provide accessible, high-quality tutoring that empowers
                   students to achieve their academic goals and develop a lifelong
@@ -124,8 +124,8 @@ const About = () => {
             </Card>
 
             <Card className="bg-[#1ac8db] text-black">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
+              <CardContent className="p-6 sm:p-8">
+                <h3 className="text-xl sm:text-2xl font-bold mb-4">Our Vision</h3>
                 <p className="text-black/90 leading-relaxed">
                   To be recognized as the leading tutoring academy in
                   Cape Town, known for transforming academic struggles into
@@ -139,9 +139,9 @@ const About = () => {
       </section>
 
       {/* Approach Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#2c3e73] text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#2c3e73] text-center mb-12">
             Our Teaching Approach
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -166,7 +166,7 @@ const About = () => {
               },
             ].map((step, index) => (
               <div key={index} className="relative">
-                <div className="text-6xl font-bold text-[#1ac8db]/20 mb-4">
+                <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1ac8db]/20 mb-4">
                   {step.step}
                 </div>
                 <h3 className="text-xl font-semibold text-[#2c3e73] mb-3">

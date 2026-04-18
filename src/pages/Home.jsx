@@ -15,9 +15,9 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[90vh] flex items-full">
+      <section className="relative pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 lg:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[90vh] flex items-full">
         {/* Organic Background Shapes inspired by flyer */}
-        <div className="absolute top-0 left-0 w-[600px] h-[600px] opacity-60">
+        <div className="absolute top-0 left-0 w-[320px] h-[320px] sm:w-[480px] sm:h-[480px] lg:w-[600px] lg:h-[600px] opacity-60">
           <svg viewBox="0 0 600 600" className="w-full h-full">
             <path
               d="M150,0 Q300,100 450,0 T600,150 Q500,300 600,450 T450,600 Q300,500 150,600 T0,450 Q100,300 0,150 T150,0 Z"
@@ -26,7 +26,7 @@ const Home = () => {
             />
           </svg>
         </div>
-        <div className="absolute bottom-0 right-0 w-[700px] h-[700px] opacity-50">
+        <div className="absolute bottom-0 right-0 w-[340px] h-[340px] sm:w-[520px] sm:h-[520px] lg:w-[700px] lg:h-[700px] opacity-50">
           <svg viewBox="0 0 700 700" className="w-full h-full">
             <path
               d="M100,350 Q200,150 350,100 T600,350 Q500,550 350,600 T100,350 Z"
@@ -35,7 +35,7 @@ const Home = () => {
             />
           </svg>
         </div>
-        <div className="absolute top-1/4 right-1/4 w-[400px] h-[400px] opacity-40">
+        <div className="absolute top-1/4 right-1/4 w-[220px] h-[220px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] opacity-40">
           <svg viewBox="0 0 400 400" className="w-full h-full">
             <circle cx="200" cy="200" r="150" fill="#1ac8db" opacity="0.06" />
             <circle cx="200" cy="200" r="100" fill="#2c3e73" opacity="0.05" />
@@ -43,14 +43,14 @@ const Home = () => {
         </div>
 
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="space-y-6 sm:space-y-8">
               <div className="inline-block">
-                <span className="text-[#1ac8db] font-semibold text-lg tracking-wide uppercase">
+                <span className="text-[#1ac8db] font-semibold text-sm sm:text-base lg:text-lg tracking-wide uppercase">
                   Welcome to Intellectus Academy Tutoring
                 </span>
               </div>
-              <h1 className="text-6xl md:text-7xl font-black text-[#2c3e73] leading-[1.1] tracking-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-[#2c3e73] leading-[1.1] tracking-tight">
                 Struggling?
                 <br />
                 <span className="text-[#1ac8db] relative inline-block">
@@ -71,16 +71,16 @@ const Home = () => {
                   </svg>
                 </span>
               </h1>
-              <p className="text-2xl text-gray-600 leading-relaxed font-light">
+              <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 leading-relaxed font-light max-w-2xl">
                 Tailored affordable tutoring that helps you
                 <br />
                 <span className="font-semibold text-[#2c3e73]">
                   own your academic success
                 </span>
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-6">
+              <div className="flex flex-col sm:flex-row gap-4 pt-4 sm:pt-6">
                 <Link to="/contact">
-                  <Button className="bg-[#1ac8db] hover:bg-[#15a3c0] text-white px-10 py-7 text-lg font-semibold shadow-lg hover:shadow-xl group rounded-xl">
+                  <Button className="w-full sm:w-auto bg-[#1ac8db] hover:bg-[#15a3c0] text-white px-8 sm:px-10 py-6 sm:py-7 text-base sm:text-lg font-semibold shadow-lg hover:shadow-xl group rounded-xl">
                     Start Your Journey
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
@@ -88,7 +88,7 @@ const Home = () => {
                 <Link to="/subjects">
                   <Button
                     variant="outline"
-                    className="border-2 border-[#2c3e73] text-[#2c3e73] hover:bg-[#2c3e73] hover:text-white px-10 py-7 text-lg font-semibold rounded-xl"
+                    className="w-full sm:w-auto border-2 border-[#2c3e73] text-[#2c3e73] hover:bg-[#2c3e73] hover:text-white px-8 sm:px-10 py-6 sm:py-7 text-base sm:text-lg font-semibold rounded-xl"
                   >
                     Explore Subjects
                   </Button>
@@ -142,7 +142,7 @@ const Home = () => {
       </section>
 
       {/* Results Section */}
-      <section className="py-24 bg-gradient-to-br from-[#2c3e73] via-[#2c3e73] to-[#1e2d5c] relative overflow-hidden">
+      <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-[#2c3e73] via-[#2c3e73] to-[#1e2d5c] relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <svg
@@ -158,23 +158,23 @@ const Home = () => {
           </svg>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
               Real Results That Matter
             </h2>
-            <p className="text-xl text-gray-300">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-300">
               Join hundreds of South African students achieving their dreams
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center group">
-                <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 hover:bg-white/20 transition-all border border-white/20">
+                <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-6 sm:p-8 hover:bg-white/20 transition-all border border-white/20">
                   <stat.icon className="w-16 h-16 text-[#1ac8db] mx-auto mb-6" />
-                  <div className="text-5xl font-black text-white mb-3">
+                  <div className="text-4xl sm:text-5xl font-black text-white mb-3">
                     {stat.value}
                   </div>
-                  <div className="text-lg text-gray-200 font-medium">
+                  <div className="text-base sm:text-lg text-gray-200 font-medium">
                     {stat.label}
                   </div>
                 </div>
@@ -185,9 +185,9 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 relative">
+      <section className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 relative">
         {/* Background Elements */}
-        <div className="absolute top-20 right-0 w-[500px] h-[500px] opacity-30">
+        <div className="absolute top-20 right-0 w-[240px] h-[240px] sm:w-[360px] sm:h-[360px] lg:w-[500px] lg:h-[500px] opacity-30">
           <svg viewBox="0 0 500 500" className="w-full h-full">
             <path
               d="M250,50 Q400,150 350,300 T250,450 Q100,400 50,250 T250,50 Z"
@@ -198,14 +198,14 @@ const Home = () => {
         </div>
 
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="text-center mb-16">
-            <span className="text-[#1ac8db] font-semibold text-lg tracking-wide uppercase">
+          <div className="text-center mb-12 sm:mb-16">
+            <span className="text-[#1ac8db] font-semibold text-sm sm:text-base lg:text-lg tracking-wide uppercase">
               Our Difference
             </span>
-            <h2 className="text-5xl font-black text-[#2c3e73] mb-4 mt-2">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#2c3e73] mb-4 mt-2">
               Why Choose Intellectus Academy?
             </h2>
-            <p className="text-gray-600 text-xl max-w-3xl mx-auto font-light">
+            <p className="text-gray-600 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto font-light">
               We're committed to helping you achieve your academic goals with
               personalized, results-driven tutoring support.
             </p>
@@ -254,7 +254,7 @@ const Home = () => {
                 key={index}
                 className="group border-2 border-gray-100 hover:border-[#1ac8db] transition-all hover:shadow-2xl hover:-translate-y-1 bg-white"
               >
-                <CardContent className="p-8">
+                <CardContent className="p-6 sm:p-8">
                   <div className="w-16 h-16 bg-gradient-to-br from-[#1ac8db]/20 to-[#2c3e73]/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                     <feature.icon className="w-8 h-8 text-[#1ac8db]" />
                   </div>
@@ -272,7 +272,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#1ac8db] to-[#15a3c0] relative overflow-hidden">
+      <section className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#1ac8db] to-[#15a3c0] relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <svg
@@ -284,15 +284,15 @@ const Home = () => {
           </svg>
         </div>
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <h2 className="text-5xl md:text-6xl font-black text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6">
             Ready to Transform Your Grades?
           </h2>
-          <p className="text-2xl text-white/95 mb-10 font-light">
+          <p className="text-lg sm:text-xl lg:text-2xl text-white/95 mb-8 sm:mb-10 font-light">
             Join hundreds of students who have achieved their academic goals with
             us
           </p>
           <Link to="/contact">
-            <Button className="bg-blue text-[#1ac8db] hover:bg-gray-100 px-12 py-8 text-xl font-bold rounded-2xl shadow-2xl hover:scale-105 transition-transform">
+            <Button className="w-full sm:w-auto bg-blue text-[#1ac8db] hover:bg-gray-100 px-8 sm:px-12 py-6 sm:py-8 text-lg sm:text-xl font-bold rounded-2xl shadow-2xl hover:scale-105 transition-transform">
               Book Your First Session
               <ArrowRight className="ml-2 w-6 h-6" />
             </Button>

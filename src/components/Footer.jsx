@@ -4,6 +4,8 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { contactInfo } from "@/mockData";
 
 const Footer = () => {
+  const mainSiteUrl = "https://leigthon.github.io/Intellectus-Platform/#/";
+
   return (
     <footer className="bg-[#2c3e73] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -65,6 +67,16 @@ const Footer = () => {
                 >
                   Contact
                 </Link>
+              </li>
+              <li>
+                <a
+                  href={mainSiteUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-gray-300 hover:text-[#1ac8db] transition-colors text-sm"
+                >
+                  Intellectus Main
+                </a>
               </li>
             </ul>
           </div>
