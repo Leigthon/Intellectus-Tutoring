@@ -28,7 +28,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
-              src="profile images/logo.jpg"
+              src="/profile images/logo.jpg"
               alt="Intellectus Academy"
               className="h-12 w-auto rounded-full object-cover"
             />
