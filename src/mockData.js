@@ -29,6 +29,34 @@ export const subjects = [
     icon: "Receipt",
     color: "#2c3e73",
   },
+  {
+    id: 5,
+    name: "University Mathematics",
+    description: "Calculus, linear algebra, and advanced problem-solving support",
+    icon: "Calculator",
+    color: "#1ac8db",
+  },
+  {
+    id: 6,
+    name: "University Physics",
+    description: "Mechanics, electromagnetism, and exam-focused physics tutoring",
+    icon: "Atom",
+    color: "#2c3e73",
+  },
+  {
+    id: 7,
+    name: "Statistics",
+    description: "Probability, data analysis, and statistical methods for university courses",
+    icon: "Microscope",
+    color: "#1ac8db",
+  },
+  {
+    id: 8,
+    name: "Economics",
+    description: "Microeconomics, macroeconomics, and applied university-level concepts",
+    icon: "Receipt",
+    color: "#2c3e73",
+  },
 ];
 
 export const tutors = [
