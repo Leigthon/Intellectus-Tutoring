@@ -45,7 +45,7 @@ export default function Bursary() {
   ];
 
   return (
-    <div className="min-h-screen pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div className="min-h-screen pb-16 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Hero / Intro */}
         <section className="mb-14">

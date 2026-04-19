@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 lg:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[90vh] flex items-full">
+      <section className="relative pt-8 sm:pt-10 lg:pt-12 pb-16 sm:pb-20 lg:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[90vh] flex items-full">
         {/* Organic Background Shapes inspired by flyer */}
         <div className="absolute top-0 left-0 w-[320px] h-[320px] sm:w-[480px] sm:h-[480px] lg:w-[600px] lg:h-[600px] opacity-60">
           <svg viewBox="0 0 600 600" className="w-full h-full">

@@ -5,7 +5,7 @@ import aboutImage from "../../images/Screenshot2026-02-04at21.43.48(2).png";
 
 const About = () => {
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#2c3e73]/5 to-white">
         <div className="max-w-7xl mx-auto">

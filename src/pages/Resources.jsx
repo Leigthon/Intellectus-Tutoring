@@ -91,7 +91,7 @@ export default function Login() {
       </nav>
 
       {/* Main Login Content */}
-      <main className="min-h-screen flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative z-10">
+      <main className="min-h-screen flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-lg w-full">
           <div className="text-center mb-10 space-y-4">
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-[#2c3e73] tracking-tight leading-tight">

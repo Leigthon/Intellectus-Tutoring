@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Tutors() {
   return (
-    <div className="min-h-screen pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <div className="min-h-screen pb-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#2c3e73] mb-3">Our Tutors</h1>
